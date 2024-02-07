@@ -63,20 +63,27 @@ Description : Flex Layouts.
 			so that a 70% width and a 30% width element truly add up to 100% including their borders,
 			Apply border-box to all elements
 			*/
+
 			box-sizing: border-box;
 		}
         body { margin: 0; padding: 0; }
         img { max-width: 100%; height: auto; }
         .container { 
-			/*I need some CSS codes.*/
+			display:flex;
+			flex-direction:column
 		 }
         .header, .footer { background-color: #f2f2f2; text-align: center; padding: 10px; width: 100%;}
 		.body { 
-			/*I need some CSS codes.*/
+
+			display:flex;
 		}
         .main { 
+
+			display: flex;
+			flex-direction: column;
 			padding: 15px; 
 			/*I need some CSS codes.*/
+
 		}
         
         .news-item { padding: 10px; }
