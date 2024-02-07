@@ -45,9 +45,10 @@ Description : Responsive Layouts.
 		
 		.gap {
 			margin-bottom: 70px;
-			padding: 70px;
-			border: 50px;
-			display: inline-block;
+			width: 100%;
+			clear: both;
+
+			
 		}
 
 		@media screen and (min-width: 769px) {			
@@ -67,7 +68,7 @@ Description : Responsive Layouts.
         @media screen and (max-width: 768px) {
            .menu {
 			width:100%;
-			display: inline-block;
+			float: none;
 		   }
 		   .main{
 			margin-left:0;
@@ -77,10 +78,12 @@ Description : Responsive Layouts.
 			width:100%
 		   }
 		   .medium{
-			width:60%
+			width:60%;
+			float: left;
 		   }
 		   .small{
-			width:40%
+			width:40%;
+			float: left;
 		   }
         }
 
