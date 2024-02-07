@@ -82,43 +82,59 @@ Description : Flex Layouts.
 			display: flex;
 			flex-direction: column;
 			padding: 15px; 
-			/*I need some CSS codes.*/
+			
 
 		}
         
         .news-item { padding: 10px; }
         .row { 
-			/*I need some CSS codes.*/
+			display: flex;
+			flex-wrap: wrap;
+			
 		}
         
 
         @media screen and (min-width: 769px) {
             .menu { width: 150px; }     
 			.large { 
-				/*I need some CSS codes.*/
+				width: 100%;
+				margin-right: 10px;
 			}
 			.medium { 
-				/*I need some CSS codes.*/
+				width: 70%;
+	
 			}
 			.small { 
-				/*I need some CSS codes.*/
+				width: 30%;
+		
 			 }       
         }
 
         @media screen and (max-width: 768px) {
 			.body { 
-				/*I need some CSS codes.*/
+				flex-direction: column;
+				
 			}
             .menu ul { 
-				/*I need some CSS codes.*/
+				display: flex;
+				flex-direction: row;
 			 }            
-            /*I need some CSS codes.*/
+			 .small{
+				width:40%
+
+			 }
+			 .medium{
+				width:60%
+
+			 }
         }
 
         @media screen and (max-width: 480px) {
             .news-item header h1 { font-size: 18px; }
             .medium, .small { 
-				/*I need some CSS codes.*/
+				
+				width: 100%;
+				font-size: 18px
 			 }
         }
     </style>
