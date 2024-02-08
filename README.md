@@ -11,3 +11,9 @@
 | Mark Jimenez  |
 
 ##Screenshots
+
+### Exercise B
+![Exercise B Final Output](./ExerciseB%20(2).gif)
+
+### Exercise C
+![Exercise C Final Output](/ExerciseC%20(2).gif)
